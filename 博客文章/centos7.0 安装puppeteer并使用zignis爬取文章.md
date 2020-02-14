@@ -43,8 +43,9 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 # 使用cnpm安装puppeteer
 cnpm i puppeteer
 ```
-4.安装zignis zignis-plugin-read(时间非常久,取决你的网络,建议吃点水果)
+4.跳过puppeteer安装zignis zignis-plugin-read
 ```
-npm i -g zignis zignis-plugin-read
+# 跳过puppeteer安装zignis zignis-plugin-read(时间非常久,取决你的网络,建议吃点水果)
+PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true npm i -g zignis zignis-plugin-read
 ```
 5.[使用方式详见](https://github.com/vipzhicheng/zignis-plugin-read#%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8)
