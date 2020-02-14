@@ -9,6 +9,8 @@
 ***
 ### 最新
 
+* [Linux禁止ping以及开启ping的方法]()
+* [Kubernetes v1.15.0 集群的安装部署]()
 * [centos7.0 安装puppeteer并使用zignis爬取文章]()
 * [Kubectl 常用命令大全 ]()
 * [webvirtmgr添加主机]()
