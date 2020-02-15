@@ -577,7 +577,7 @@ chmod 0600 ~/.ssh/config
 ssh-copy-id root@10.0.0.113（需要管理的kvm机器的ip地址）
 ```
 详情见：\
-https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/%E5%AE%89%E8%A3%85webvirtmgr.md
+https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/%E5%AE%89%E8%A3%85webvirtmgr.md \
 https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/webvirtmgr%E6%B7%BB%E5%8A%A0%E4%B8%BB%E6%9C%BA.md
 
 ![](https://upload-images.jianshu.io/upload_images/19559641-328fdecf8c6e96ff.png)
