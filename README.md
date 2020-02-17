@@ -37,6 +37,6 @@
 * [编译安装mysql]()
 * [Nextcloud云服务器配置SMTP邮件通知]()
 * [kubeadm集群更改证书]()
-* [nginx反向代理http/https]()
+* [nginx反向代理http/https](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/nginx%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86httphttps.md)
 * [Dockerfile部署nginx apache tomcat](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/Dockerfile%E9%83%A8%E7%BD%B2nginx%20apache%20tomcat.md)
 * [解决Google浏览器不能打开kubernetes dashboard方法](https://github.com/happinesslijian/my-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/%E8%A7%A3%E5%86%B3Google%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8D%E8%83%BD%E6%89%93%E5%BC%80kubernetes%20dashboard%E6%96%B9%E6%B3%95.md)
