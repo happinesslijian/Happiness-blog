@@ -9,6 +9,7 @@
 ***
 ### 最新
 
+* [k8s删除Terminating状态的命名空间]()
 * [cockpit安装与使用](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/cockpit%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8.md)
 * [Kubernetes安装cert-manager](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/Kubernetes%E5%AE%89%E8%A3%85cert-manager.md)
 * [KVM权威指南](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/KVM%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97.md)
