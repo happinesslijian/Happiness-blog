@@ -101,6 +101,8 @@ metadata:
   namespace: nginx
 spec:
   secretName: nginx-tls
+  duration: 2160h
+  renewBefore: 360h
   dnsNames:
   #自定义域名
   - nginx.xtestx.tech
@@ -158,6 +160,8 @@ metadata:
   namespace: kube-system
 spec:
   secretName: traefik-tls
+  duration: 2160h
+  renewBefore: 360h
   dnsNames:
   #自定义域名
   - traefik.test.com
