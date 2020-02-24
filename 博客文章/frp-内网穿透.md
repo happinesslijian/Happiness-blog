@@ -1,10 +1,9 @@
-## frp的搭建及简单使用
 ### 准备工作：
 1. 1台具有固定公网IP的服务器(我选择的是阿里云的服务器)
 2. 至少1台内网机器(看你实际需要穿透的数量)
 
 ### frps
-1. 在公网机器上下载frp软件,地址https://github.com/fatedier/frp/releases并且解压到任意目录(我这里解压到`/srv/`下面)
+1. 在公网机器上下载frp软件,地址https://github.com/fatedier/frp/releases 并且解压到任意目录(我这里解压到`/srv/`下面)
 2. 修改配置,我的配置主要如下:
 ```
 # vim frps.ini
@@ -31,16 +30,17 @@ nohup ./frps -c ./frps.ini &
 ```
 4. 监控脚本(优化方面,防止意外原因导致frps进程掉线)
 ```
-# vim frps-crontab.sh
-# chmode +x frps-crontab.sh
+# vim autostatus.sh
+# chmod +x autostatus.sh
 
+#!/bin/bash
 frps=`ps -ef | grep frps | wc -l`
 if [ "${frps}" -eq "1" ];then
-        cd /srv/ && nohup ./frps -c ./frps.ini &
+        cd /srv/frps && nohup ./frps -c ./frps.ini &
 fi
 ```
 ### frpc
-1. 在内网机器上下载frp软件,地址https://github.com/fatedier/frp/releases并且解压到任意目录(我这里解压到`/srv/`下面)
+1. 在内网机器上下载frp软件,地址https://github.com/fatedier/frp/releases 并且解压到任意目录(我这里解压到`/srv/`下面)
 2. 修改配置,我的配置主要如下：
 ```
 # vim frpc.ini
@@ -93,9 +93,13 @@ use_encryption = true
 ```
 4. 监控脚本(优化方面,防止意外原因导致frpc进程掉线)
 ```
+# vim autostatus.sh
+# chmod +x autostatus.sh
+
+#!/bin/bash
 frpc=`ps -ef | grep frpc | wc -l`
 if [ "${frpc}" -eq "1" ];then
-        cd /srv/ && ./frpc -c ./frpc.ini > /tmp/frpc.log 2>&1 &
+        cd /srv/frpc && ./frpc -c ./frpc.ini > /tmp/frpc.log 2>&1 &
 fi
 ```
 ### 总结
