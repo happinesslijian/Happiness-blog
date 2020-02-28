@@ -3,17 +3,17 @@
 ![give_a_star.png](https://i.loli.net/2020/02/13/HrtNCLnq9lwvOuz.png)
 
 <h4 align="center">个人博客&简书与本仓库同步更新❤️</h4>
-<h4 align="center">个人博客 https://blog.k8s.fit</h4>
+<h4 align="center">个人博客 :fire::fire: https://blog.k8s.fit :fire::fire: </h4>
 <h4 align="center">简书 https://www.jianshu.com/u/5370ae137304</h4>
 
 ***
 ### 最新
 
-* [Kubernetes安装cert-manager-2]()
-* [frp-内网穿透]()
-* [k8s删除Terminating状态的命名空间]()
+* [Kubernetes安装cert-manager-2](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/Kubernetes%E5%AE%89%E8%A3%85cert-manager-2.md)
+* [frp-内网穿透](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/frp-%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F.md)
+* [k8s删除Terminating状态的命名空间](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/k8s%E5%88%A0%E9%99%A4Terminating%E7%8A%B6%E6%80%81%E7%9A%84%E5%91%BD%E5%90%8D%E7%A9%BA%E9%97%B4.md)
 * [cockpit安装与使用](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/cockpit%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8.md)
-* [Kubernetes安装cert-manager-1](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/Kubernetes%E5%AE%89%E8%A3%85cert-manager.md)
+* [Kubernetes安装cert-manager-1](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/Kubernetes%E5%AE%89%E8%A3%85cert-manager-1.md)
 * [KVM权威指南](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/KVM%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97.md)
 * [Linux禁止ping以及开启ping的方法](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/Linux%E7%A6%81%E6%AD%A2ping%E4%BB%A5%E5%8F%8A%E5%BC%80%E5%90%AFping%E7%9A%84%E6%96%B9%E6%B3%95.md)
 * [Kubernetes v1.15.0 集群的安装部署](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/Kubernetes%20v1.15.0%20%E9%9B%86%E7%BE%A4%E7%9A%84%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2.md)
