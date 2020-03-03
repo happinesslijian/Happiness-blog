@@ -9,6 +9,7 @@
 ***
 ### 最新
 
+* [permission-manager]()
 * [Kubernetes安装cert-manager-2](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/Kubernetes%E5%AE%89%E8%A3%85cert-manager-2.md)
 * [frp-内网穿透](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/frp-%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F.md)
 * [k8s删除Terminating状态的命名空间](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/k8s%E5%88%A0%E9%99%A4Terminating%E7%8A%B6%E6%80%81%E7%9A%84%E5%91%BD%E5%90%8D%E7%A9%BA%E9%97%B4.md)
