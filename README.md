@@ -9,6 +9,7 @@
 ***
 ### 最新
 
+* [记录一次真实迁移经历]()
 * [permission-manager](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/permission-manager.md)
 * [Kubernetes安装cert-manager-2](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/Kubernetes%E5%AE%89%E8%A3%85cert-manager-2.md)
 * [frp-内网穿透](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/frp-%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F.md)
