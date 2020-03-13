@@ -13,7 +13,7 @@
 
 ### 最新
 
-* [在k8s中部署zabbix]()
+* [在k8s中部署zabbix](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/%E5%9C%A8k8s%E4%B8%AD%E9%83%A8%E7%BD%B2zabbix.md)
 * [记录一次真实的维护过程](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E7%9C%9F%E5%AE%9E%E7%9A%84%E7%BB%B4%E6%8A%A4%E8%BF%87%E7%A8%8B.md)
 * [记录一次真实迁移经历](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E7%9C%9F%E5%AE%9E%E8%BF%81%E7%A7%BB%E7%BB%8F%E5%8E%86.MD)
 * [permission-manager](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/permission-manager.md)
