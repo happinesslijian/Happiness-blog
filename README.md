@@ -13,8 +13,8 @@
 
 ### 最新
 
-* [使k8s集群可以调度GPU]()
-* [搭建web版IDE-jupyterhub]()
+* [使k8s集群可以调度GPU](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/%E4%BD%BFk8s%E9%9B%86%E7%BE%A4%E5%8F%AF%E4%BB%A5%E8%B0%83%E5%BA%A6GPU.md)
+* [搭建web版IDE-jupyterhub](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/%E6%90%AD%E5%BB%BAweb%E7%89%88IDE-jupyterhub.md)
 * [搭建harbor私有镜像仓库(一)](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/%E6%90%AD%E5%BB%BAharbor%E7%A7%81%E6%9C%89%E9%95%9C%E5%83%8F%E4%BB%93%E5%BA%93(%E4%B8%80).md)
 * [搭建harbor私有镜像仓库(二)](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/%E6%90%AD%E5%BB%BAharbor%E7%A7%81%E6%9C%89%E9%95%9C%E5%83%8F%E4%BB%93%E5%BA%93(%E4%BA%8C)%20.md)
 * [可视化Weave Scope部署](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/%E5%8F%AF%E8%A7%86%E5%8C%96Weave%20Scope%E9%83%A8%E7%BD%B2.md)
