@@ -133,6 +133,7 @@ rbac:
 
 
 proxy:
+# 使用命令openssl rand -hex 32生成的十六进制字符串粘贴到下面
   secretToken: 'e734c6d0d526140a7de392cf67ec7bc990625be1e8502da672b829df8ef34e91'
   deploymentStrategy:
     ## type: Recreate
@@ -476,11 +477,32 @@ service/proxy-public   NodePort    10.244.125.153   <none>        443:30853/TCP,
 NAME                            HOSTS                 ADDRESS                     PORTS   AGE
 ingress.extensions/jupyterhub   jupyterhub.lhws.com   10.20.80.204,10.20.80.205   80      88m
 ```
+
 - NodePort形式访问
 ![](https://imgkr.cn-bj.ufileos.com/efe87e83-1616-48fd-b7bf-33d3e11e2704.png)
 - ingress形式访问
 ![](https://imgkr.cn-bj.ufileos.com/c1789725-a757-40de-b9d2-9aeb620c5493.png)
+
 左侧列表中出现的就是我自定义的部分,上面的配置文件中讲到了,有定制需求的,可以参考上面的配置文件讲解
+```
+FROM jupyter/base-notebook:a07573d685a4
+ARG JUPYTERHUB_VERSION=1.1.*
+USER root
+RUN apt-get update && apt-get install --yes --no-install-recommends \
+    git \
+ && rm -rf /var/lib/apt/lists/*
+#这里是我自定义的目录
+RUN mkdir -p /dataset/ /test/ /train/ /code/
+USER $NB_USER
+
+RUN python -m pip install nbgitpuller \
+    $(bash -c 'if [[ $JUPYTERHUB_VERSION == "git"* ]]; then \
+       echo ${JUPYTERHUB_VERSION}; \
+     else \
+       echo jupyterhub==${JUPYTERHUB_VERSION}; \
+     fi') && \
+    jupyter serverextension enable --py nbgitpuller --sys-prefix
+```
 默认是/lab即jupyterlab 你也可以切换到/tree这样就是jupyternotebooks了
 
 ### 结束语
@@ -488,7 +510,6 @@ ingress.extensions/jupyterhub   jupyterhub.lhws.com   10.20.80.204,10.20.80.205 
 
 
 参考文献：
-
 https://zero-to-jupyterhub.readthedocs.io/en/latest/setup-jupyterhub/setup-jupyterhub.html
 https://zero-to-jupyterhub.readthedocs.io/en/latest/customizing/user-environment.html
 https://zero-to-jupyterhub.readthedocs.io/en/latest/administrator/advanced.html
