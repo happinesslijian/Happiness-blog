@@ -510,9 +510,15 @@ RUN python -m pip install nbgitpuller \
 
 
 参考文献：
+
 https://zero-to-jupyterhub.readthedocs.io/en/latest/setup-jupyterhub/setup-jupyterhub.html
+
 https://zero-to-jupyterhub.readthedocs.io/en/latest/customizing/user-environment.html
+
 https://zero-to-jupyterhub.readthedocs.io/en/latest/administrator/advanced.html
+
 https://jupyterhub.github.io/helm-chart/
+
 https://github.com/jupyterhub/zero-to-jupyterhub-k8s/blob/master/images/singleuser-sample/Dockerfile
+
 https://github.com/jupyterhub/zero-to-jupyterhub-k8s
