@@ -13,6 +13,13 @@
 
 ### 最新
 
+* [Kubernetes 部署 Metrics Server 获取集群指标数据]()
+* [kubernetes故障排除指南-分析容器退出状态码]()
+* [mysql启动时自动执行初始建表脚本]()
+* [Docker最简单管理方法之Portainer]()
+* [用户名密码方式登录Kubernetes-Dashboard]()
+* [一个web编程界面送给爱写代码的你]()
+
 * [使k8s集群可以调度GPU](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/%E4%BD%BFk8s%E9%9B%86%E7%BE%A4%E5%8F%AF%E4%BB%A5%E8%B0%83%E5%BA%A6GPU.md)
 * [搭建web版IDE-jupyterhub](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/%E6%90%AD%E5%BB%BAweb%E7%89%88IDE-jupyterhub.md)
 * [搭建harbor私有镜像仓库(一)](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/%E6%90%AD%E5%BB%BAharbor%E7%A7%81%E6%9C%89%E9%95%9C%E5%83%8F%E4%BB%93%E5%BA%93(%E4%B8%80).md)
