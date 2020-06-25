@@ -13,13 +13,12 @@
 
 ### 最新
 
-* [Kubernetes 部署 Metrics Server 获取集群指标数据]()
-* [kubernetes故障排除指南-分析容器退出状态码]()
-* [mysql启动时自动执行初始建表脚本]()
-* [Docker最简单管理方法之Portainer]()
-* [用户名密码方式登录Kubernetes-Dashboard]()
-* [一个web编程界面送给爱写代码的你]()
-
+* [Kubernetes 部署 Metrics Server 获取集群指标数据](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/Kubernetes%20%E9%83%A8%E7%BD%B2%20Metrics%20Server%20%E8%8E%B7%E5%8F%96%E9%9B%86%E7%BE%A4%E6%8C%87%E6%A0%87%E6%95%B0%E6%8D%AE.MD)
+* [kubernetes故障排除指南-分析容器退出状态码](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/kubernetes%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E6%8C%87%E5%8D%97-%E5%88%86%E6%9E%90%E5%AE%B9%E5%99%A8%E9%80%80%E5%87%BA%E7%8A%B6%E6%80%81%E7%A0%81.md)
+* [mysql启动时自动执行初始建表脚本](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/mysql%E5%90%AF%E5%8A%A8%E6%97%B6%E8%87%AA%E5%8A%A8%E6%89%A7%E8%A1%8C%E5%88%9D%E5%A7%8B%E5%BB%BA%E8%A1%A8%E8%84%9A%E6%9C%AC.md)
+* [Docker最简单管理方法之Portainer](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/Docker%E6%9C%80%E7%AE%80%E5%8D%95%E7%AE%A1%E7%90%86%E6%96%B9%E6%B3%95%E4%B9%8BPortainer.md)
+* [用户名密码方式登录Kubernetes-Dashboard](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/%E7%94%A8%E6%88%B7%E5%90%8D%E5%AF%86%E7%A0%81%E6%96%B9%E5%BC%8F%E7%99%BB%E5%BD%95Kubernetes-Dashboard.md)
+* [一个web编程界面送给爱写代码的你](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/%E4%B8%80%E4%B8%AAweb%E7%BC%96%E7%A8%8B%E7%95%8C%E9%9D%A2%E9%80%81%E7%BB%99%E7%88%B1%E5%86%99%E4%BB%A3%E7%A0%81%E7%9A%84%E4%BD%A0.md)
 * [使k8s集群可以调度GPU](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/%E4%BD%BFk8s%E9%9B%86%E7%BE%A4%E5%8F%AF%E4%BB%A5%E8%B0%83%E5%BA%A6GPU.md)
 * [搭建web版IDE-jupyterhub](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/%E6%90%AD%E5%BB%BAweb%E7%89%88IDE-jupyterhub.md)
 * [搭建harbor私有镜像仓库(一)](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/%E6%90%AD%E5%BB%BAharbor%E7%A7%81%E6%9C%89%E9%95%9C%E5%83%8F%E4%BB%93%E5%BA%93(%E4%B8%80).md)
