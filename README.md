@@ -13,7 +13,7 @@
 
 ### 最新
 
-* [解决kubeadm在安装k8s中的版本问题]()
+* [解决kubeadm在安装k8s中的版本问题](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/%E8%A7%A3%E5%86%B3kubeadm%E5%9C%A8%E5%AE%89%E8%A3%85k8s%E4%B8%AD%E7%9A%84%E7%89%88%E6%9C%AC%E9%97%AE%E9%A2%98.md)
 * [Kubernetes 部署 Metrics Server 获取集群指标数据](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/Kubernetes%20%E9%83%A8%E7%BD%B2%20Metrics%20Server%20%E8%8E%B7%E5%8F%96%E9%9B%86%E7%BE%A4%E6%8C%87%E6%A0%87%E6%95%B0%E6%8D%AE.MD)
 * [kubernetes故障排除指南-分析容器退出状态码](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/kubernetes%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E6%8C%87%E5%8D%97-%E5%88%86%E6%9E%90%E5%AE%B9%E5%99%A8%E9%80%80%E5%87%BA%E7%8A%B6%E6%80%81%E7%A0%81.md)
 * [mysql启动时自动执行初始建表脚本](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/mysql%E5%90%AF%E5%8A%A8%E6%97%B6%E8%87%AA%E5%8A%A8%E6%89%A7%E8%A1%8C%E5%88%9D%E5%A7%8B%E5%BB%BA%E8%A1%A8%E8%84%9A%E6%9C%AC.md)
