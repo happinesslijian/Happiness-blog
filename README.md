@@ -13,7 +13,7 @@
 
 ### 最新
 
-* [supervisor]()
+* [supervisor](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/supervisor.md)
 
 * [解决kubeadm在安装k8s中的版本问题](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/%E8%A7%A3%E5%86%B3kubeadm%E5%9C%A8%E5%AE%89%E8%A3%85k8s%E4%B8%AD%E7%9A%84%E7%89%88%E6%9C%AC%E9%97%AE%E9%A2%98.md)
 * [Kubernetes 部署 Metrics Server 获取集群指标数据](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/Kubernetes%20%E9%83%A8%E7%BD%B2%20Metrics%20Server%20%E8%8E%B7%E5%8F%96%E9%9B%86%E7%BE%A4%E6%8C%87%E6%A0%87%E6%95%B0%E6%8D%AE.MD)
