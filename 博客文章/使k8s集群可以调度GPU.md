@@ -91,13 +91,28 @@ vim /etc/docker/daemon.json
 ```
 ```
 {
-    "default-runtime": "nvidia",
-    "runtimes": {
-        "nvidia": {
-            "path": "/usr/bin/nvidia-container-runtime",
-            "runtimeArgs": []
-        }
-    }
+  "insecure-registries": ["10.244.0.0/18","harbor.chinauniwise.com"],
+  "max-concurrent-downloads": 10,
+  "log-driver": "json-file",
+  "log-level": "warn",
+  "log-opts": {
+    "max-size": "10m",
+    "max-file": "3"
+    },
+  "data-root": "/var/lib/docker",
+  "exec-opts": ["native.cgroupdriver=systemd"],
+  "storage-driver": "overlay2",
+  "storage-opts": [
+    "overlay2.override_kernel_check=true"
+  ],
+  # 添加下面
+  "default-runtime": "nvidia",
+  "runtimes": {
+      "nvidia": {
+          "path": "/usr/bin/nvidia-container-runtime",
+          "runtimeArgs": []
+      }
+  }
 }
 ```
 ### 验证
