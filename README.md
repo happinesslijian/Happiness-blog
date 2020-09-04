@@ -13,6 +13,7 @@
 
 ### 最新
 
+* [Loki简单使用](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/PLG/README.md)
 * [droppy文件服务器](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/droppy%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8.md)
 * [supervisor](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/supervisor.md)
 * [解决kubeadm在安装k8s中的版本问题](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/%E8%A7%A3%E5%86%B3kubeadm%E5%9C%A8%E5%AE%89%E8%A3%85k8s%E4%B8%AD%E7%9A%84%E7%89%88%E6%9C%AC%E9%97%AE%E9%A2%98.md)
