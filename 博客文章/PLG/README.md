@@ -23,10 +23,10 @@ wget https://dl.grafana.com/oss/release/grafana-7.1.0-1.x86_64.rpm
 sudo yum install grafana-7.1.0-1.x86_64.rpm
 ```
 - 安装loki  
-[loki.sh]()
+[loki.sh](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/PLG/loki.sh)
 
 - 安装promtail  
-[promtail.sh]()
+[promtail.sh](https://github.com/happinesslijian/Happiness-blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/PLG/promtail.sh)
 
 参数介绍：  
 - /etc/promtail/promtail-local-config.yaml
