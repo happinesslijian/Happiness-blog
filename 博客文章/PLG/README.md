@@ -474,6 +474,8 @@ echo QTZwc1AzQnJjeVNtS0NFVjF0cW13MENoMUJNR0ZhNzJCWDI2YnUzNQ== | base64 -d
 
 # 或者
 kubectl get secret grafana -n loki -o yaml | grep admin-password | awk '{print $2}' | base64 -d 
+# 或者
+kubectl get secret -n loki grafana -o jsonpath="{.data.admin-password}" | base64 -d
 ```
 ## dashboard配置
 ![微信截图_20200826174853.png](https://i.loli.net/2020/08/26/5RXA2Ct1oLeJVGS.png)
