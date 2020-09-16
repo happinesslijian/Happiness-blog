@@ -9,7 +9,7 @@ https://storage.googleapis.com/kubernetes-release/release/v1.16.8/bin/windows/am
 #git下载地址
 https://www.git-scm.com/download/
 ```
-4. 把k8s服务端的/root/.kube/config下载到windows
+4. 把k8s服务端的/root/.kube/config下载到windows(记得修改config内IP地址)
 ```
 #以管理员身份运行CMD,在CMD内操作
 
