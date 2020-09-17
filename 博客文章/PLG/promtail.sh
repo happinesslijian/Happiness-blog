@@ -19,6 +19,8 @@ fi
 echo -n "请输入Loki服务端IP:"
 read IP
 
+echo -n $HOSTNAME
+echo -e '\033[1;31m 写入配置文件到/etc/promtail/promtail-local-config.yaml \033[0m'
 cat << EOF > /etc/promtail/promtail-local-config.yaml
 server:
   http_listen_port: 9080
@@ -62,6 +64,8 @@ scrape_configs:
       __path__: /var/log/messages
 
 EOF
+echo -e '\033[1;31m 执行完毕,请查看Loki  job选项 \033[0m'
+
 cat > /etc/systemd/system/promtail.service <<EOF
 
 [Unit]
