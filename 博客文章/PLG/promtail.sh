@@ -38,6 +38,29 @@ scrape_configs:
     labels:
       job: varlogs
       __path__: /var/log/*log
+      
+# 如下写法会收集该目录下所有子目录中所有的(类似filebeat 穿透子目录查找日志文件,并索引)递归查询
+
+# 参考链接 https://github.com/bmatcuk/doublestar#patterns
+
+- job_name: 10.20.80.207
+  static_configs:
+  - targets:
+      - localhost
+    labels:
+      job: NFS-logs
+      __path__: /var/log/{,*/}{*[._]log,{mail,news}.{err,info,warn}}
+
+# 递归查询可以查询到子目录中的日志,但是/var/log/目录下就查询不到了,比如：messages查询不到,所以要手动指定,如下：
+
+- job_name: 10.20.80.207
+  static_configs:
+  - targets:
+      - localhost
+    labels:
+      job: NFS-messages-logs
+      __path__: /var/log/messages
+
 EOF
 cat > /etc/systemd/system/promtail.service <<EOF
 
