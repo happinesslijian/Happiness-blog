@@ -2,11 +2,11 @@
 mkdir -p /etc/promtail/
 yum -y install unzip 
 
-wget https://github.com/grafana/loki/releases/download/v1.5.0/promtail-linux-amd64.zip
+wget -c https://github.com/grafana/loki/releases/download/v1.5.0/promtail-linux-amd64.zip
 if [ $? -ne 0 ]; then
     while true
     do
-        wget https://github.com/grafana/loki/releases/download/v1.5.0/promtail-linux-amd64.zip
+        wget -c https://github.com/grafana/loki/releases/download/v1.5.0/promtail-linux-amd64.zip
         if [ $? -eq 0 ]; then
             break
         fi
@@ -45,7 +45,7 @@ scrape_configs:
 
 # 参考链接 https://github.com/bmatcuk/doublestar#patterns
 
-- job_name: 10.20.80.207
+- job_name: ${HOSTNAME}
   static_configs:
   - targets:
       - localhost
@@ -55,7 +55,7 @@ scrape_configs:
 
 # 递归查询可以查询到子目录中的日志,但是/var/log/目录下就查询不到了,比如：messages查询不到,所以要手动指定,如下：
 
-- job_name: 10.20.80.207
+- job_name: ${HOSTNAME}
   static_configs:
   - targets:
       - localhost
