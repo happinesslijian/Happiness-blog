@@ -1,4 +1,4 @@
-# 解决Kubeadm在安装K8s中的版本问题
+![](https://imgkr.cn-bj.ufileos.com/424e57d4-2e31-4016-9cb5-deacc6210c3e.jpg)
 
 ## Docker源
 
@@ -6,6 +6,11 @@
 curl -o /etc/yum.repos.d/Docker-ce-Ali.repo  https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
 ```
 
+## 一键安装docker
+```
+curl -fsSL https://get.docker.com/ | bash -s docker --mirror Aliyun
+systemctl restart docker && systemctl enable docker
+```
 ## 安装特定版本
 
 ```
