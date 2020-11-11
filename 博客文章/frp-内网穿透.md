@@ -119,10 +119,11 @@ User=root
 
 [Install]
 WantedBy=multi-user.target
+EOF
 ```
 6. 开机自启动
 ```
-systemctl start frpc && systemctl enable frpc && systemctl status frpc
+systemctl start frpc && systemctl enable frpc && systemctl status frpc && systemctl list-unit-files | grep frpc
 ```
 ### 总结
 有上面简单几条配置即可完成内网穿透,没有数量的限制,想怎么穿透就怎么穿透！
