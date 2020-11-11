@@ -102,6 +102,28 @@ if [ "${frpc}" -eq "1" ];then
         cd /srv/frpc && ./frpc -c ./frpc.ini > /tmp/frpc.log 2>&1 &
 fi
 ```
+5. 使用systemd管理(我这里模拟了frpc，frps同理)
+```
+cat << EOF >> /etc/systemd/system/frpc.service
+[Unit]
+Description=frp service
+
+[Service]
+ExecStart=/srv/frpc/frpc -c /srv/frpc/frpc.ini
+Restart=always
+# Restart service after 10 seconds if the dotnet service crashes:
+RestartSec=10
+KillSignal=SIGINT
+SyslogIdentifier=frp-service
+User=root
+
+[Install]
+WantedBy=multi-user.target
+```
+6. 开机自启动
+```
+systemctl start frpc && systemctl enable frpc && systemctl status frpc
+```
 ### 总结
 有上面简单几条配置即可完成内网穿透,没有数量的限制,想怎么穿透就怎么穿透！
 > 注意：如果穿透http协议或者https协议一定要提前做好域名的备案工作,否则80端口无法正常通信！
