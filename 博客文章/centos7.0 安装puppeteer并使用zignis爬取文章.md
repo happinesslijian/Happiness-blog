@@ -36,6 +36,15 @@ $  source /etc/profile
 $ node -v
 v12.16.0
 ```
+> 第二步如果不成功可以使用如下：
+```
+yum install -y gcc gcc-c++ && wget https://npm.taobao.org/mirrors/node/v10.14.1/node-v10.14.1-linux-x64.tar.gz && tar xf node-v10.14.1-linux-x64.tar.gz -C /usr/local/ && mv /usr/local/node-v10.14.1-linux-x64 /usr/local/node && 
+cat << EOF >> /etc/profile
+export NODE_HOME=/usr/local/node  
+export PATH=$NODE_HOME/bin:$PATH
+EOF
+source /etc/profile && node -v && npm -v
+```
 3.用cnpm安装puppeteer
 ```
 # 安装cnpm(时间非常久,取决你的网络,建议喝杯咖啡)
