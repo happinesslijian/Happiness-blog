@@ -606,6 +606,11 @@ $ kubectl convert -f . | kubectl create -f -
 
 ![v-1.png](https://i.loli.net/2020/02/13/InfWJoEqYZdXjvB.png)
 
+## 启用 Bash 补全
+```
+echo 'source <(kubectl completion bash)' >> /root/.bashrc
+```
+
 ## 小结
 
 以上是 `kubectl` 一些基本命令操作，需要时方便查阅。
