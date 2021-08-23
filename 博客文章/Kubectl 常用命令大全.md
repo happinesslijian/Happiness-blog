@@ -610,6 +610,10 @@ $ kubectl convert -f . | kubectl create -f -
 
 以上是 `kubectl` 一些基本命令操作，需要时方便查阅。
 
+## 更多使用方式
+
+- https://computingforgeeks.com/kubectl-cheat-sheet-for-kubernetes-cka-exam-prep/
+
 ## 参考链接
 
 - https://www.jianshu.com/p/304c629d127c
