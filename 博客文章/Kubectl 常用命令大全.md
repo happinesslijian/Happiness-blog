@@ -609,6 +609,7 @@ $ kubectl convert -f . | kubectl create -f -
 ## 启用 Bash 补全
 ```
 echo 'source <(kubectl completion bash)' >> /root/.bashrc
+source /root/.bashrc
 ```
 
 ## 小结
