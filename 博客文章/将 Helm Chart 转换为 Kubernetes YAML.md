@@ -22,7 +22,7 @@ helm repo add cetic https://cetic.github.io/helm-charts
 helm template zabbix cetic/zabbix --output-dir zabbix-manifests/helm-manifests
 ```
 在上面的命令中，cetic/zabbix是图表名称。  
-zabbix-manifests/helm-manifests是存储 YAML 的输出目录。
+zabbix-manifests/helm-manifests是存储 YAML 的输出目录。  
 像这样，您可以将任何 helm chart 转换为 Kubernetes YAML 文件。  
 生成的文件在  
 ```
@@ -31,5 +31,5 @@ zabbix-manifests/helm-manifests是存储 YAML 的输出目录。
 ```
 
 
-[原文链接](https://devopslearners.com/how-to-convert-helm-chart-to-kubernetes-yaml-fbe6d6722f6)
+[原文链接](https://devopslearners.com/how-to-convert-helm-chart-to-kubernetes-yaml-fbe6d6722f6)  
 [原文链接](https://scriptcrunch.com/convert-helm-chart-kubernetes-yaml/)
