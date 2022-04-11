@@ -3,7 +3,7 @@
 #### Kubernetes Node节点每个默认允许最多创建110个Pod，有时可能会由于系统硬件的问题，从而需要控制Node节点的Pod的运行数量。
 
 1.查看kubelet配置文件所在位置 如图：
-![微信截图_20220411110511.png](https://s2.loli.net/2022/04/11/o2i4yMRPBjKC8vz.png)
+![微信截图_20220411110511.png](https://s2.loli.net/2022/04/11/o2i4yMRPBjKC8vz.png)  
 2.编辑该配置文件  
 ```
 vim /usr/lib/systemd/system/kubelet.service.d/10-kubeadm.conf
