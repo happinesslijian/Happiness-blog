@@ -37,9 +37,11 @@ read -r -p "输入要扩展的数量: " input0
         elif [ $input0 -gt 110 ] && [ $input0 -le 200 ]; then
                 #可以直接删除第11行,但是这样不太友好,所以这里使用了注释以ExecStart开头的行 #&的意思是匹配任意字符
                 #sed -i '11d' $file
-                sed -i 's/^ExecStart/#&/' $file
+                sed -i 's/^ExecStart=\/usr\/bin\/kubelet/#&/' $file
                 echo Environment="KUBELET_NODE_MAX_PODS=--max-pods=$input0" >> $file
                 echo $newExecStart >> $file
+                systemctl daemon-reload
+                systemctl restart kubelet
         else
                 echo "输入的值须大于110,且小于等于200"
         fi
