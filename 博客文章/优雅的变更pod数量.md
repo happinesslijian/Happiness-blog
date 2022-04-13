@@ -21,3 +21,29 @@ systemctl restart kubelet
 ```
 4.前后对比图  
 ![微信截图_20220411111417.png](https://s2.loli.net/2022/04/11/axTFGp5kjNiIRyV.png)
+
+### 编写了一个脚本
+### Change_Pod_quantity.sh
+```
+#!/bin/bash
+file=/usr/lib/systemd/system/kubelet.service.d/10-kubeadm.conf
+newExecStart='ExecStart=/usr/bin/kubelet $KUBELET_KUBECONFIG_ARGS $KUBELET_CONFIG_ARGS $KUBELET_KUBEADM_ARGS $KUBELET_EXTRA_ARGS $KUBELET_NODE_MAX_PODS'
+ls -al $file
+if [ "$?" = 0 ]; then
+read -r -p "输入要扩展的数量: " input0
+        expr $input0 + 0 &> /dev/null
+        if [ $? != 0 ]; then
+                echo "请输入数字!"
+        elif [ $input0 -gt 110 ] && [ $input0 -le 200 ]; then
+                #可以直接删除第11行,但是这样不太友好,所以这里使用了注释以ExecStart开头的行 #&的意思是匹配任意字符
+                #sed -i '11d' $file
+                sed -i 's/^ExecStart/#&/' $file
+                echo Environment="KUBELET_NODE_MAX_PODS=--max-pods=$input0" >> $file
+                echo $newExecStart >> $file
+        else
+                echo "输入的值须大于110,且小于等于200"
+        fi
+else
+        echo "没有这个文件或目录"
+fi
+```
