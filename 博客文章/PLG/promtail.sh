@@ -63,6 +63,16 @@ scrape_configs:
       job: ${HOSTNAME}-messages-logs
       __path__: /var/log/messages
 
+# 而 /var/log/**/*.log 用于递归匹配文件与目录(包含如上两个)
+
+- job_name: ${HOSTNAME}-logs
+  static_configs:
+  - targets:
+      - localhost
+    labels:
+      job: ${HOSTNAME}-logs
+      __path__: /var/log/**/*.log
+
 EOF
 echo -e '\033[1;31m 执行完毕,请查看Loki  job选项 \033[0m'
 
